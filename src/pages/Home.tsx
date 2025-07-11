@@ -5,8 +5,9 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
 const Home = () => {
+  console.log("Home component is rendering");
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background text-foreground">{/* Added explicit styling */}
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-background via-muted/30 to-background py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
