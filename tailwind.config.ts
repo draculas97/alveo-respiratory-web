@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +54,14 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				// ALVEO brand colors
+				alveo: {
+					primary: 'hsl(var(--alveo-primary))',
+					secondary: 'hsl(var(--alveo-secondary))',
+					accent: 'hsl(var(--alveo-accent))',
+					bright: 'hsl(var(--alveo-bright))',
+					deep: 'hsl(var(--alveo-deep))',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
