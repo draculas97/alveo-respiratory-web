@@ -90,10 +90,10 @@ const Navigation = () => {
               isOpen={activeDropdown === 'about'}
               onClick={() => handleDropdownClick('about')}
               items={[
-                { label: 'Overview', href: '/about#overview' },
-                { label: 'Vision & Mission', href: '/about#vision-mission' },
-                { label: 'Board of Trustees', href: '/about#board-of-trustees' },
-                { label: 'Leadership', href: '/about#leadership' },
+                { label: 'Overview', href: '/about/overview' },
+                { label: 'Vision & Mission', href: '/about/vision-mission' },
+                { label: 'Board of Trustees', href: '/about/board-of-trustees' },
+                { label: 'Leadership', href: '/about/leadership' },
               ]}
             />
 
@@ -102,8 +102,8 @@ const Navigation = () => {
               isOpen={activeDropdown === 'work'}
               onClick={() => handleDropdownClick('work')}
               items={[
-                { label: 'Our Projects', href: '/work#projects' },
-                { label: 'Programmes & Events', href: '/work#programmes-events' },
+                { label: 'Our Projects', href: '/work/projects' },
+                { label: 'Programmes & Events', href: '/work/programmes-events' },
               ]}
             />
 
@@ -112,9 +112,9 @@ const Navigation = () => {
               isOpen={activeDropdown === 'involved'}
               onClick={() => handleDropdownClick('involved')}
               items={[
-                { label: 'Become a Volunteer', href: '/get-involved#volunteer' },
-                { label: 'Partner with Us', href: '/get-involved#partner' },
-                { label: 'Careers', href: '/get-involved#careers' },
+                { label: 'Become a Volunteer', href: '/get-involved/volunteer' },
+                { label: 'Partner with Us', href: '/get-involved/partner' },
+                { label: 'Careers', href: '/get-involved/careers' },
               ]}
             />
 
