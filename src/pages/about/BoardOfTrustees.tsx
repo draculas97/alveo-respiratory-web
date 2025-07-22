@@ -18,46 +18,46 @@ const BoardOfTrustees = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {[
             {
-              name: 'Dr. Rajesh Kumar',
-              role: 'Chairman & Chief Medical Officer',
+              name: 'Dr. Supraja.K',
+              role: 'Managing Trustee',
               specialty: 'Pulmonology & Respiratory Medicine',
+              image: 'https://images.unsplash.com/photo-1594824204845-c5ae2d9a4b5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+              bio: 'Leading expert in respiratory medicine with extensive experience in managing complex pulmonary conditions.'
+            },
+            {
+              name: 'Dr. V Pasupathy',
+              role: 'Trustee',
+              specialty: 'Medical Research & Education',
               image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-              bio: 'Leading pulmonologist with over 25 years of experience in respiratory medicine and clinical research.'
+              bio: 'Renowned medical researcher with significant contributions to respiratory health education and clinical practice.'
             },
             {
-              name: 'Prof. Meera Sharma',
-              role: 'Vice Chairperson',
-              specialty: 'Public Health & Epidemiology',
-              image: 'https://images.unsplash.com/photo-1594824204845-c5ae2d9a4b5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-              bio: 'Renowned epidemiologist specializing in respiratory health outcomes and population health strategies.'
-            },
-            {
-              name: 'Dr. Arjun Patel',
-              role: 'Secretary & Research Director',
-              specialty: 'Biomedical Engineering',
+              name: 'Dr. T Palaniappan',
+              role: 'Trustee',
+              specialty: 'Clinical Medicine',
               image: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-              bio: 'Expert in biomedical technologies and AI applications in healthcare diagnostics.'
+              bio: 'Distinguished clinician with expertise in patient care and medical innovation in respiratory health.'
             },
             {
-              name: 'Ms. Priya Singh',
-              role: 'Treasurer',
+              name: 'Mr. S Sandilya',
+              role: 'Trustee',
               specialty: 'Healthcare Administration',
-              image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-              bio: 'Healthcare administration expert with extensive experience in nonprofit financial management.'
+              image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+              bio: 'Healthcare administration specialist with extensive experience in nonprofit management and strategic planning.'
             },
             {
-              name: 'Dr. Suresh Gupta',
+              name: 'Mr. T Nataraajan',
               role: 'Trustee',
-              specialty: 'Preventive Medicine',
-              image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-              bio: 'Preventive medicine specialist focused on community health and disease prevention strategies.'
+              specialty: 'Community Outreach',
+              image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+              bio: 'Community engagement expert focused on health awareness and public health program implementation.'
             },
             {
-              name: 'Prof. Anita Verma',
+              name: 'Mr. T G Dhandapani',
               role: 'Trustee',
-              specialty: 'Community Health',
-              image: 'https://images.unsplash.com/photo-1594824204845-c5ae2d9a4b5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
-              bio: 'Community health advocate with expertise in grassroots health education and outreach programs.'
+              specialty: 'Financial Management',
+              image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
+              bio: 'Financial management professional with expertise in charitable trust operations and resource allocation.'
             }
           ].map((member, index) => (
             <Card key={index} className="shadow-soft hover:shadow-elegant transition-shadow">
@@ -125,7 +125,7 @@ const BoardOfTrustees = () => {
               <div className="text-muted-foreground">Transparency</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-primary mb-2">25+</div>
+              <div className="text-2xl font-bold text-primary mb-2">100+</div>
               <div className="text-muted-foreground">Years Combined Experience</div>
             </div>
           </div>

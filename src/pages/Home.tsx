@@ -62,12 +62,12 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 4P Medicine Section */}
+      {/* 4P Approach Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              The 4P Medicine Approach
+              The P4 Approach
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We are not just a health initiative. We are a movement for scientific excellence, equitable access, and integrated care—built on the firm foundation of 4P medicine.
@@ -78,27 +78,27 @@ const Home = () => {
             {[
               {
                 title: 'Preventive',
-                description: 'Early intervention and disease prevention strategies',
+                description: 'No entry for spoilers',
                 icon: '🛡️',
                 color: 'from-blue-500 to-blue-600'
               },
               {
-                title: 'Predictive',
-                description: 'AI-driven risk assessment and forecasting',
-                icon: '🔮',
-                color: 'from-green-500 to-green-600'
-              },
-              {
                 title: 'Personalized',
-                description: 'Tailored treatments based on individual profiles',
+                description: 'Tailored treatments based on individual science bio profiling',
                 icon: '👤',
                 color: 'from-purple-500 to-purple-600'
               },
               {
                 title: 'Participative',
-                description: 'Patient-centered collaborative care',
+                description: 'Regaining health through integrated approach',
                 icon: '🤝',
                 color: 'from-pink-500 to-pink-600'
+              },
+              {
+                title: 'Predictive',
+                description: 'Visualise good health by scientific prediction',
+                icon: '🔮',
+                color: 'from-green-500 to-green-600'
               }
             ].map((item, index) => (
               <Card key={index} className="shadow-soft hover:shadow-elegant transition-shadow">
